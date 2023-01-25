@@ -1,6 +1,3 @@
-const texto = window.document.querySelector("#text");
-console.log("%cteste de texto", "color:red;", texto);
-
 if ("webkitSpeechRecognition" in window) {
   var recognition = new webkitSpeechRecognition();
   recognition.continuous = true;
